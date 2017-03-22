@@ -1,0 +1,32 @@
+:host {
+  display: flex;
+  width: 100%;
+}
+
+nav {
+  flex: 0 0 15%;
+  padding: 20px 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: 16px;
+    border-left: 3px solid transparent;
+    &.active {
+      color: rgba(0, 0, 0, 0.8);
+      border-left-color: #9f72e6;
+      background: rgba(0, 0, 0, 0.03);
+    }
+  }
+}
+
+.mail {
+  flex: 0 0 40%;
+  padding: 20px 0;
+  overflow: hidden;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
