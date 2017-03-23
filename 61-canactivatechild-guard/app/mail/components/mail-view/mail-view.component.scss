@@ -1,0 +1,42 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.mail-view {
+  padding: 0 30px;
+}
+
+.mail-reply {
+  background: rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 30px 30px;
+  margin-bottom: -20px;
+  textarea {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    resize: none;
+    padding: 10px 15px;
+    margin: 0 0 10px;
+    height: 100%;
+    outline: none;
+  }
+}
+
+button {
+  width: 100%;
+  
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
