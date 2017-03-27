@@ -1,0 +1,19 @@
+{
+  "angularCompilerOptions": {
+    "entryModule": "app/app.module#AppModule",
+    "genDir": "./ngfactory"
+  },
+  "compilerOptions": {
+    "importHelpers": true,
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmitHelpers": true,
+    "pretty": true,
+    "sourceMap": true,
+    "lib": ["es5", "es2015", "dom"],
+    "strictNullChecks": false
+  }
+}
