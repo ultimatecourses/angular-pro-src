@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font: 300 15px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg,rgba(168,25,177,0.9) 0%,rgba(111,19,169,0.8) 100%);
+  -webkit-font-smoothing: antialiased;
+  color: #545e6f;
+}
+
+img {
+  vertical-align: bottom;
+}
+img a {
+  border: 0;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #9f72e6;
+  text-decoration: none;
+}
+input,
+button {
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+  background: #9f72e6;
+  border: 0;
+  border-radius: 2px;
+  padding: 5px 10px;
+  text-align: center;
+  color: #fff;
+}
+button:disabled {
+  cursor: not-allowed;
+  background: #b598e4;
+}
+p {
+  margin: 5px 0;
+}
+
+body {
+  padding: 50px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+}
+app-root {
+  display: block;
+}
+app-root > div {
+  display: flex;
+  justify-content: center;
+}
+
+songs-playlist,
+songs-favourites,
+songs-listened {
+  flex: 0 0 33%;
+  margin: 0 10px;
+}
