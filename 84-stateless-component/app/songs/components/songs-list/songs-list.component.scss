@@ -1,0 +1,57 @@
+.songs-list {
+  background: #fff;
+  box-shadow: 0 16px 24px 0 rgba(0,0,0,.1);
+  border-radius: 4px;
+  overflow: hidden;
+  h3 {
+    background: #552075;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  &__favourite {
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    top: 27px;
+    right: 20px;
+    background: url(/img/favourite.svg) no-repeat 0 0;
+    background-size: 20px 20px;
+    cursor: pointer;
+    &.active {
+      background: url(/img/favourite-active.svg) no-repeat 0 0;
+      background-size: 20px 20px;
+    }
+  }
+  &__listened {
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    top: 27px;
+    right: 50px;
+    cursor: pointer;
+    background: url(/img/played.svg) no-repeat 0 0;
+    background-size: 20px 20px;
+    &.active {
+      background: url(/img/played-active.svg) no-repeat 0 0;
+      background-size: 20px 20px;
+    }
+  }
+  li {
+    position: relative;
+    padding: 10px 20px;
+    &:nth-child(2n) {
+      background: #f5f4f5;
+    }
+    p {
+      font: {
+        size: 18px;
+        margin: 0;
+        weight: 500;
+      }
+    }
+    span {
+      color: #807d82;
+    }
+  }
+}
