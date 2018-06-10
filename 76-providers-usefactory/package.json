@@ -1,9 +1,9 @@
 {
-  "name": "angular-fundamentals-seed",
+  "name": "angular-pro-src",
   "version": "0.1.0",
-  "description": "Ultimate Angular: Angular Fundamentals Seed",
+  "description": "Ultimate Angular: Angular Pro Source",
   "repository": {
-    "url": "git@github.com:UltimateAngular/angular-fundamentals-seed.git",
+    "url": "git@github.com:UltimateAngular/angular-pro-src.git",
     "type": "git"
   },
   "license": "MIT",
