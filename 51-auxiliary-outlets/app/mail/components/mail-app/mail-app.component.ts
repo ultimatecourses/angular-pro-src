@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
       <router-outlet></router-outlet>
     </div>
     <div class="mail">
-      <router-outlet name="pane"></router-outlet>
+      <router-outlet name="pane"></router-outlet><!-- This becomes a secondary outlet to the first, you just have to add a name -->
     </div>
   `
 })
