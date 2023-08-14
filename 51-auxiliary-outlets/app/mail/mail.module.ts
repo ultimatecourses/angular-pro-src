@@ -12,13 +12,13 @@ import { MailService } from './mail.service';
 
 export const ROUTES: Routes = [
   {
-    path: 'folder/:name',
+    path: 'folder/:name', //primsry route
     component: MailFolderComponent,
     resolve: {
       messages: MailFolderResolve
     }
   },
-  {
+  {//sibling route
     path: 'message/:id',
     component: MailViewComponent,
     outlet: 'pane'

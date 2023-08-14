@@ -9,6 +9,7 @@
   "license": "MIT",
   "author": "Ultimate Angular",
   "dependencies": {
+    "@angular/cli": "^15.0.5",
     "@angular/common": "4.0.0-rc.3",
     "@angular/compiler": "4.0.0-rc.3",
     "@angular/core": "4.0.0-rc.3",
