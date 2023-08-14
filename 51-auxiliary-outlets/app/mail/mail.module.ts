@@ -21,7 +21,7 @@ export const ROUTES: Routes = [
   {
     path: 'message/:id',
     component: MailViewComponent,
-    outlet: 'pane'
+    outlet: 'pane'// this is the name which is used in the outlet in the mail-app.component
   }
 ];
 
