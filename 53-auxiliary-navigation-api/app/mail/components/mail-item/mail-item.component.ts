@@ -23,7 +23,7 @@ export class MailItemComponent {
   message: Mail;
   constructor(private router: Router) {}
   navigateToMessage() {
-    this.router.navigate(
+    this.router.navigate( // the alternate to routerlink, but you dont get any active states
       ['', { outlets: { pane: ['message', this.message.id] } }]
     );
   }
